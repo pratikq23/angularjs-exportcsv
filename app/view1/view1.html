@@ -1,0 +1,30 @@
+
+<body ng-app="tableCSV">
+<div ng-controller="View1Ctrl">
+
+	<button export-to-csv>Download</button>
+
+	<table>
+		<tr>
+			<th>SNO</th>
+			&nbsp;
+			<th>Name</th>
+			&nbsp;
+			<th>City</th>
+			&nbsp;
+			<th>Power</th>
+			&nbsp;
+			<th>Weakness</th>
+			
+		</tr>
+		<tr ng-repeat="superhero in superheroes">
+			<td>{{superhero.sno}}</td>
+			<td>{{superhero.name}}</td>
+			<td>{{superhero.city}}</td>
+			<td>{{superhero.power}}</td>
+			<td>{{superhero.weakness}}</td>
+		</tr>
+		
+	</table>
+</div>	
+</body>
