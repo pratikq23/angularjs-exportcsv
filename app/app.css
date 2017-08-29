@@ -23,3 +23,15 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+.th {
+	    padding-right: 20px;
+    padding-left: 20px;
+}
+.td {
+	    padding-right: 20px;
+    padding-left: 20px;
+}
+td, th {
+    padding: 11px;
+}
